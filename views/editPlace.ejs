@@ -1,0 +1,12 @@
+<form action="api/places/<%=place._id%>?_method=PUT" method="POST">
+  Name:<br>
+  <input type="text" name="name" value="<%=place.name%>">
+  <br>
+  Images:<br>
+  <input type="text" name="image" value="<%=place.image%>">
+  <br>
+  About:<br>
+  <textarea name="about" cols="30" rows="10"><%=place.about%></textarea>
+  <br>
+  <input type="submit">
+</form>
